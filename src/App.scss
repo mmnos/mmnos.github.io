@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Playfair+Display&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+div.headerContainer {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+
+  div#breakLine {
+    border-bottom: 1px solid #61dafb;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  img.illustrationStylingHeader {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+div.mainContainer {
+  div.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img.illustrationStylingMain {
+      height: 300px;
+      width: 300px;
+    }
+  }
+
+  h4.sectionHeaders {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  p.sectionDescriptions {
+    color: #9e9e9e;
+    padding: 0 10px;
+  }
+
+  a.customLink {
+    text-decoration: none;
+    color: #616161;
+  }
+
+  p.contactLinks {
+    text-align: center;
+  }
+}
+
+div.contactContainer {
+  margin-bottom: 50px;
+}
+
+/* typewriter effect */
+/* source : https://reactjsexample.com/a-simple-component-to-create-a-typewriter-effect/ */
+
+span.typewriter {
+  font-size: 2rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+
+span.react-rotating-text-cursor {
+  animation: blinking-cursor 5s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  color: #61dafb;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
