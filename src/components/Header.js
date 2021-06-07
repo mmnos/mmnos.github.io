@@ -22,7 +22,7 @@ const Header = () => {
           <ReactRotatingText
             id='typewriterId'
             className='typewriter'
-            items={['Adventurer', 'Software Engineer', 'Investor']}
+            items={['Software Engineer', 'Investor', 'Boba Lover']}
           />
         </div>
       </div>

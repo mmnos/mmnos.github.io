@@ -21,12 +21,12 @@ const Main = () => {
             </div>
             <h4 className='sectionHeaders'>My Journey</h4>
             <p className='sectionDescriptions'>
-              Prior to landing my first engineering gig, I spent 5 years working
+              Prior to landing my first engineering job, I spent 5 years working
               in retail and delivering pizzas. In 2019, I discovered UNH's
               coding bootcamp, which is where I gained my foundation in software
               development. Upon graduating, I returned as a Teaching Assistant
-              for a cohort and I landed an engineering job at a Fortune 100
-              company, which is where I'm still at today and I love my job!
+              for one cohort and I landed an engineering job at a Fortune 100
+              company, which is where I'm still at today and I love it!
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Main = () => {
             </div>
             <h4 className='sectionHeaders'>Technical Skills</h4>
             <p className='sectionDescriptions'>
-              Through my professional work experience, I've been able to further
+              Through professional work experience, I've been able to further
               develop current skills and obtain new ones. Currently, I use
               technologies like React, GraphQL, Node.js, MongoDB, AWS Lambda,
               and Docker.
@@ -79,9 +79,9 @@ const Main = () => {
             <h4 className='sectionHeaders'>Soft Skills</h4>
             <p className='sectionDescriptions'>
               Stemming all the way back to my first job in high school, I've
-              been able to grow and learn new skills that have helped me
-              communicate better and be a team player. Some things I value are
-              collaboration, empathy, kindness, and being open-minded.
+              grown and learned new skills that have helped me communicate and
+              collaborate better. A few things that I value are empathy, being
+              open-minded, and having the willingness to learn.
             </p>
           </div>
         </div>
