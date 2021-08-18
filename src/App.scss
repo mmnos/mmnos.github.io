@@ -60,13 +60,15 @@ div.mainContainer {
     padding: 0 10px;
   }
 
-  a.customLink {
+  a.contactLinks {
     text-decoration: none;
     color: #616161;
+    margin: 10px;
   }
 
-  p.contactLinks {
-    text-align: center;
+  div.contactLinksContainer {
+    display: flex;
+    justify-content: center;
   }
 }
 

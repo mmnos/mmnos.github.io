@@ -1,8 +1,10 @@
 import React from 'react';
 import myJourneyImage from '../images/Rocket Launch_Two Color.svg';
 import technicalSkillsImage from '../images/Coding _Two Color.svg';
-import softSkillsImage from '../images/Team work_Monochromatic.svg';
 import contactImage from '../images/Notifications_Isometric.svg';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { IoLogoGithub } from 'react-icons/io';
+import { SiGmail } from 'react-icons/si';
 import '../App.scss';
 
 const Main = () => {
@@ -26,7 +28,7 @@ const Main = () => {
               coding bootcamp, which is where I gained my foundation in software
               development. Upon graduating, I returned as a Teaching Assistant
               for one cohort and I landed an engineering job at a Fortune 100
-              company, which is where I'm still at today and I love it!
+              company, which is where I'm still at today!
             </p>
           </div>
         </div>
@@ -45,28 +47,16 @@ const Main = () => {
             </div>
             <h4 className='sectionHeaders'>Technical Skills</h4>
             <p className='sectionDescriptions'>
-              Through professional work experience, I've been able to further
-              develop current skills and obtain new ones. Currently, I use
-              technologies like React, GraphQL, Node.js, MongoDB, AWS Lambda,
-              and Docker.
-            </p>
-            <p className='sectionDescriptions'>
-              You can check out some of my work here :{' '}
-              <a
-                className='customLink'
-                href='https://github.com/mmnos'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                GitHub
-              </a>
+              Through professional work experience, I've further developed
+              skills in React, Node.js, MongoDB, GraphQL, AWS Lambda, and
+              Docker.
             </p>
           </div>
         </div>
         <div className='col-sm-4'></div>
       </div>
       <div className='row'>
-        <div className='col-sm-4'></div>
+        {/* <div className='col-sm-4'></div>
         <div className='col-sm-4'>
           <div className='mainContainer'>
             <div className='imageContainer'>
@@ -85,7 +75,7 @@ const Main = () => {
             </p>
           </div>
         </div>
-        <div className='col-sm-4'></div>
+        <div className='col-sm-4'></div> */}
       </div>
       <div className='row contactContainer'>
         <div className='col-sm-4'></div>
@@ -99,26 +89,32 @@ const Main = () => {
               />
             </div>
             <h4 className='sectionHeaders'>Contact</h4>
-            <p className='contactLinks'>
+            <div className='contactLinksContainer'>
               <a
-                className='customLink'
-                href='mailto:mnos9897@gmail.com'
+                className='contactLinks'
+                href='https://github.com/mmnos'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Email Me
+                <IoLogoGithub size='24px' />
               </a>
-            </p>
-            <p className='contactLinks'>
               <a
-                className='customLink'
+                className='contactLinks'
                 href='https://www.linkedin.com/in/michael-nos/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                LinkedIn
+                <FaLinkedinIn color='#2867B2' size='24px' />
               </a>
-            </p>
+              <a
+                className='contactLinks'
+                href='mailto:mnos9897@gmail.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <SiGmail color='#34A853' size='24px' />
+              </a>
+            </div>
           </div>
         </div>
         <div className='col-sm-4'></div>
