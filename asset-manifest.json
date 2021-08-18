@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1a98937.chunk.css",
-    "main.js": "/static/js/main.50a8d183.chunk.js",
-    "main.js.map": "/static/js/main.50a8d183.chunk.js.map",
+    "main.css": "/static/css/main.eb360e41.chunk.css",
+    "main.js": "/static/js/main.e662e83a.chunk.js",
+    "main.js.map": "/static/js/main.e662e83a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.54c80412.chunk.css": "/static/css/2.54c80412.chunk.css",
-    "static/js/2.4856838b.chunk.js": "/static/js/2.4856838b.chunk.js",
-    "static/js/2.4856838b.chunk.js.map": "/static/js/2.4856838b.chunk.js.map",
+    "static/js/2.5924785d.chunk.js": "/static/js/2.5924785d.chunk.js",
+    "static/js/2.5924785d.chunk.js.map": "/static/js/2.5924785d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7163b3a9e575525e32fc043a71cc2ddc.js": "/precache-manifest.7163b3a9e575525e32fc043a71cc2ddc.js",
+    "precache-manifest.b2c6a056ff332afbed84fc04710524dd.js": "/precache-manifest.b2c6a056ff332afbed84fc04710524dd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.54c80412.chunk.css.map": "/static/css/2.54c80412.chunk.css.map",
-    "static/css/main.c1a98937.chunk.css.map": "/static/css/main.c1a98937.chunk.css.map",
-    "static/js/2.4856838b.chunk.js.LICENSE.txt": "/static/js/2.4856838b.chunk.js.LICENSE.txt",
+    "static/css/main.eb360e41.chunk.css.map": "/static/css/main.eb360e41.chunk.css.map",
+    "static/js/2.5924785d.chunk.js.LICENSE.txt": "/static/js/2.5924785d.chunk.js.LICENSE.txt",
     "static/media/Coding _Two Color.svg": "/static/media/Coding _Two Color.6ac1a83a.svg",
     "static/media/Imac_Isometric.svg": "/static/media/Imac_Isometric.8d2e1266.svg",
     "static/media/Notifications_Isometric.svg": "/static/media/Notifications_Isometric.a3d963b6.svg",
     "static/media/Rocket Launch_Two Color.svg": "/static/media/Rocket Launch_Two Color.99774ce2.svg",
-    "static/media/Team work_Monochromatic.svg": "/static/media/Team work_Monochromatic.380134ce.svg",
     "static/media/Web Developer_Outline.svg": "/static/media/Web Developer_Outline.a75a28e3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.54c80412.chunk.css",
-    "static/js/2.4856838b.chunk.js",
-    "static/css/main.c1a98937.chunk.css",
-    "static/js/main.50a8d183.chunk.js"
+    "static/js/2.5924785d.chunk.js",
+    "static/css/main.eb360e41.chunk.css",
+    "static/js/main.e662e83a.chunk.js"
   ]
 }
