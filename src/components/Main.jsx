@@ -47,10 +47,10 @@ export const Main = () => {
             </div>
             <h4 className='sectionHeaders'>Technical Skills</h4>
             <p className='sectionDescriptions'>
-              Through my work experience, I've gained knowledge in full-stack
+              Through work experience, I've gained knowledge in full-stack
               enterprise development using technologies such as React,
               TypeScript, GraphQL and Apollo in both monolithic and microservice
-              architecture.
+              architectures.
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const LandingView = () => {
       </div>
       <div className='col-sm-4'>
         <div className='contentColumn'>
-          <h1>Hiya, </h1>
+          <h1>Hey there, </h1>
           <h1>I'm Michael</h1>
           <div id='breakLine'></div>
           <ReactRotatingText
