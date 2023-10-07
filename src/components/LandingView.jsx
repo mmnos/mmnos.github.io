@@ -1,10 +1,10 @@
 import React from 'react';
 import webDevImage1 from '../images/Web Developer_Outline.svg';
-import webDevImage2 from '../images/Imac_Isometric.svg';
+import webDevImage2 from 'src/images/Imac_Isometric.svg';
 import ReactRotatingText from 'react-rotating-text';
-import '../App.scss';
+import 'src/App.scss';
 
-const Header = () => {
+export const LandingView = () => {
   return (
     <div className='row headerContainer'>
       <div className='col-sm-4'>
@@ -22,7 +22,7 @@ const Header = () => {
           <ReactRotatingText
             id='typewriterId'
             className='typewriter'
-            items={['Software Engineer', 'Investor', 'Boba Lover']}
+            items={['Software Engineer', 'Adventurer', 'Boba Lover']}
           />
         </div>
       </div>
@@ -36,5 +36,3 @@ const Header = () => {
     </div>
   );
 };
-
-export default Header;
