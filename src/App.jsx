@@ -1,6 +1,6 @@
 import React from 'react';
-import { LandingView } from 'src/components/LandingView';
-import { Main } from 'src/components/Main';
+import { LandingView } from './components/LandingView';
+import { Main } from './components/Main';
 import './App.scss';
 
 export const App = () => (

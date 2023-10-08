@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Playfair+Display&display=swap');
 
 html {
-  scroll-behavior: smooth;
   margin: 0;
+  scroll-behavior: smooth;
   width: 100%;
 }
 
@@ -12,23 +12,23 @@ body {
 }
 
 div.headerContainer {
+  align-items: center;
   background-color: #212121;
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: 'Playfair Display', serif;
   height: 100vh;
+  justify-content: center;
+  margin: 0;
   width: 100%;
   text-align: center;
-  margin: 0;
 
   div#breakLine {
     border-bottom: 1px solid #61dafb;
-    width: 50%;
     margin-left: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 50%;
   }
 
   img.illustrationStylingHeader {
@@ -39,8 +39,8 @@ div.headerContainer {
 
 div.mainContainer {
   div.imageContainer {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 
     img.illustrationStylingMain {
@@ -51,8 +51,8 @@ div.mainContainer {
 
   h4.sectionHeaders {
     text-align: center;
-    margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
   }
 
   p.sectionDescriptions {
@@ -61,8 +61,8 @@ div.mainContainer {
   }
 
   a.contactLinks {
-    text-decoration: none;
     color: #616161;
+    text-decoration: none;
     margin: 10px;
   }
 
@@ -76,28 +76,12 @@ div.contactContainer {
   margin-bottom: 50px;
 }
 
-/* typewriter effect */
-/* source : https://reactjsexample.com/a-simple-component-to-create-a-typewriter-effect/ */
-
-span.typewriter {
+div.Typewriter > span {
   font-size: 2rem;
-  padding-bottom: 5px;
-  border-bottom: 1px solid white;
 }
 
-span.react-rotating-text-cursor {
-  animation: blinking-cursor 5s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
-  color: #61dafb;
-}
-
-@keyframes blinking-cursor {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+@media screen and (max-width: 560px) {
+  div.Typewriter > span {
+    font-size: 1.5rem;
   }
 }

@@ -1,6 +1,5 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "personal-website",
   "private": true,
   "homepage": "https://www.michaelnos.com",
   "scripts": {
@@ -16,17 +15,11 @@
     "react-dom": "18.2.0",
     "react-icons": "4.11.0",
     "react-rotating-text": "1.4.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@types/node": "^20.6.0",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "typescript": "^5.2.2"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
   "browserslist": {
     "production": [
