@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6741e5ca.css",
-    "main.js": "/static/js/main.7732d8c7.js",
-    "static/media/Web Developer_Outline.svg": "/static/media/Web Developer_Outline.08368c26f756ae5f8288b4af70052ddf.svg",
-    "static/media/Imac_Isometric.svg": "/static/media/Imac_Isometric.6c786584b01046522b4b8c93e8f8e93d.svg",
-    "static/media/Notifications_Isometric.svg": "/static/media/Notifications_Isometric.f37c5a11dbc118c6f2bf74c0399dfa39.svg",
-    "static/media/Coding _Two Color.svg": "/static/media/Coding _Two Color.aa2b7aab71e757df79bba4e384e1363c.svg",
-    "static/media/Rocket Launch_Two Color.svg": "/static/media/Rocket Launch_Two Color.e9a3c524291d505335edb3e08b1d428b.svg",
+    "main.css": "/static/css/main.55e68b0a.css",
+    "main.js": "/static/js/main.be0ceebe.js",
+    "static/media/devCodingImage.svg": "/static/media/devCodingImage.08368c26f756ae5f8288b4af70052ddf.svg",
+    "static/media/deskSetupImage.svg": "/static/media/deskSetupImage.6c786584b01046522b4b8c93e8f8e93d.svg",
+    "static/media/contactImage.svg": "/static/media/contactImage.f37c5a11dbc118c6f2bf74c0399dfa39.svg",
+    "static/media/devCodingImage2.svg": "/static/media/devCodingImage2.aa2b7aab71e757df79bba4e384e1363c.svg",
+    "static/media/rocketLaunchImage.svg": "/static/media/rocketLaunchImage.e9a3c524291d505335edb3e08b1d428b.svg",
     "index.html": "/index.html",
-    "main.6741e5ca.css.map": "/static/css/main.6741e5ca.css.map",
-    "main.7732d8c7.js.map": "/static/js/main.7732d8c7.js.map"
+    "main.55e68b0a.css.map": "/static/css/main.55e68b0a.css.map",
+    "main.be0ceebe.js.map": "/static/js/main.be0ceebe.js.map"
   },
   "entrypoints": [
-    "static/css/main.6741e5ca.css",
-    "static/js/main.7732d8c7.js"
+    "static/css/main.55e68b0a.css",
+    "static/js/main.be0ceebe.js"
   ]
 }
